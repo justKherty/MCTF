@@ -1,3 +1,5 @@
+local computer = require("computer")
+
 if computer.uptime() >= 200 then
 	computer.beep("...")
 	print("Computer has been idle for more than 200 seconds")
