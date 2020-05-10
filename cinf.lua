@@ -19,6 +19,6 @@ while true do
 			elseif answer == "2" then 
 				print("Breaking...")
 				break
-			else then
+			else
 				print("Invalid operation")
 			end
