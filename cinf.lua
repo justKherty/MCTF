@@ -20,4 +20,4 @@ while true do
 			else
 				print("Invalid operation")
 			end
-
+		end
