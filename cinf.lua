@@ -5,6 +5,12 @@ local mem = computer.freeMemory()
 
 while true do
 	local conditions = true
+	print("1 : Free Memory and uptime")
+	print("2 : Stop")
+	print("Please enter a number")
+	
+	answer = io.read()
+	
 			if answer == "1" then
 				print("Printing free memory and uptime...")
 				local kbmem = mem/1024
